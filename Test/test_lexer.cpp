@@ -28,7 +28,6 @@ int main() {
         }
         lexer.output << ")\n";
     }
-    lexer.analyzeAll();
 
     cout << "Lexical analysis completed. Results saved to " << outputFilename
          << endl;
